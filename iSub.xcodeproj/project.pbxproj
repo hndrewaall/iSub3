@@ -1326,7 +1326,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* iSubAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSubAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* iSubAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iSubAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* iSub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* GBSub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBSub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28C286DF0D94DF7D0034E888 /* FoldersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldersViewController.h; sourceTree = "<group>"; };
@@ -1428,23 +1428,6 @@
 		533A2D80113C963300B3A376 /* controller-pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "controller-pause.png"; path = "Images/Player Icons/controller-pause.png"; sourceTree = "<group>"; };
 		533A2D81113C963300B3A376 /* controller-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "controller-play.png"; path = "Images/Player Icons/controller-play.png"; sourceTree = "<group>"; };
 		533A2D82113C963300B3A376 /* controller-previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "controller-previous.png"; path = "Images/Player Icons/controller-previous.png"; sourceTree = "<group>"; };
-		533C657A15ABB952003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NewHomeViewController.xib; sourceTree = "<group>"; };
-		533C658115ABB975003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/NewHomeViewController-iPad.xib"; sourceTree = "<group>"; };
-		533C658815ABB9A2003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuickAlbumsViewController.xib; sourceTree = "<group>"; };
-		533C658F15ABB9A9003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeAlbumViewController.xib; sourceTree = "<group>"; };
-		533C659615ABB9AD003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchSongsViewController.xib; sourceTree = "<group>"; };
-		533C659D15ABB9B0003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShuffleFolderPickerViewController.xib; sourceTree = "<group>"; };
-		533C65A415ABB9B3003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchAllViewController.xib; sourceTree = "<group>"; };
-		533C65AB15ABB9BD003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IntroViewController.xib; sourceTree = "<group>"; };
-		533C65B215ABB9C6003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ServerListViewController.xib; sourceTree = "<group>"; };
-		533C65B915ABB9C9003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ServerTypeViewController.xib; sourceTree = "<group>"; };
-		533C65C015ABB9CC003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SubsonicServerEditViewController.xib; sourceTree = "<group>"; };
-		533C65C715ABB9D0003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UbuntuServerEditViewController.xib; sourceTree = "<group>"; };
-		533C65CC15ABB9D3003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PMSServerEditViewControllerViewController.xib; sourceTree = "<group>"; };
-		533C65D315ABB9D6003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SettingsTabViewController.xib; sourceTree = "<group>"; };
-		533C65DA15ABB9F0003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DebugViewController.xib; sourceTree = "<group>"; };
-		533C65E115ABB9F5003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EqualizerViewController.xib; sourceTree = "<group>"; };
-		533C65E815ABBA09003EAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AlbumViewController.xib; sourceTree = "<group>"; };
 		533F651C160533F4000098E1 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = Other/Defines.h; sourceTree = "<group>"; };
 		533F65201605429E000098E1 /* ISMSCustomUIObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISMSCustomUIObjects.h; sourceTree = "<group>"; };
 		53404FE011E9487C004AEC41 /* controller-next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "controller-next@2x.png"; path = "Images/Player Icons/controller-next@2x.png"; sourceTree = "<group>"; };
@@ -2366,6 +2349,23 @@
 		53FE39B81EA9703E0058B925 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
 		53FE39B91EA9703E0058B925 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
 		53FE39BA1EA9703E0058B925 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		AE21F8DC2171DE84002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DebugViewController.xib; sourceTree = "<group>"; };
+		AE21F8DD2171DE84002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/EqualizerViewController.xib; sourceTree = "<group>"; };
+		AE21F8DE2171DE84002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SettingsTabViewController.xib; sourceTree = "<group>"; };
+		AE21F8DF2171DE84002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ServerListViewController.xib; sourceTree = "<group>"; };
+		AE21F8E02171DE84002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ServerTypeViewController.xib; sourceTree = "<group>"; };
+		AE21F8E12171DE84002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SubsonicServerEditViewController.xib; sourceTree = "<group>"; };
+		AE21F8E22171DE84002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UbuntuServerEditViewController.xib; sourceTree = "<group>"; };
+		AE21F8E32171DE84002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PMSServerEditViewControllerViewController.xib; sourceTree = "<group>"; };
+		AE21F8E42171DE84002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/IntroViewController.xib; sourceTree = "<group>"; };
+		AE21F8E52171DE85002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/NewHomeViewController-iPad.xib"; sourceTree = "<group>"; };
+		AE21F8E62171DE85002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NewHomeViewController.xib; sourceTree = "<group>"; };
+		AE21F8E72171DE85002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/QuickAlbumsViewController.xib; sourceTree = "<group>"; };
+		AE21F8E82171DE85002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HomeAlbumViewController.xib; sourceTree = "<group>"; };
+		AE21F8E92171DE85002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SearchSongsViewController.xib; sourceTree = "<group>"; };
+		AE21F8EA2171DE85002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShuffleFolderPickerViewController.xib; sourceTree = "<group>"; };
+		AE21F8EB2171DE85002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SearchAllViewController.xib; sourceTree = "<group>"; };
+		AE21F8EC2171DE85002C4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AlbumViewController.xib; sourceTree = "<group>"; };
 		D0EA476019DE41510083CE05 /* ISMSPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISMSPlayerView.h; sourceTree = "<group>"; };
 		D0EA476119DE41510083CE05 /* ISMSPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISMSPlayerView.m; sourceTree = "<group>"; };
 		D0EA476519DE41E30083CE05 /* ISMSPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISMSPlayerViewController.h; sourceTree = "<group>"; };
@@ -2468,7 +2468,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* iSub.app */,
+				1D6058910D05DD3D006BFB54 /* GBSub.app */,
 				53BC2865139AF0DD00A825F1 /* iSub Beta.app */,
 			);
 			name = Products;
@@ -4095,7 +4095,7 @@
 			);
 			name = "iSub Release";
 			productName = iSubTESTING;
-			productReference = 1D6058910D05DD3D006BFB54 /* iSub.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* GBSub.app */;
 			productType = "com.apple.product-type.application";
 		};
 		53BC269F139AF0DD00A825F1 /* iSub Beta */ = {
@@ -4123,11 +4123,11 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Ben Baron";
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 7596YH3S97;
+						DevelopmentTeam = 8J8N2GU37S;
 						ProvisioningStyle = Automatic;
 					};
 					53BC269F139AF0DD00A825F1 = {
@@ -4146,6 +4146,7 @@
 				French,
 				German,
 				en,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -5465,7 +5466,7 @@
 		533C657B15ABB952003EAF29 /* NewHomeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C657A15ABB952003EAF29 /* en */,
+				AE21F8E62171DE85002C4A68 /* Base */,
 			);
 			name = NewHomeViewController.xib;
 			sourceTree = "<group>";
@@ -5473,7 +5474,7 @@
 		533C658215ABB975003EAF29 /* NewHomeViewController-iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C658115ABB975003EAF29 /* en */,
+				AE21F8E52171DE85002C4A68 /* Base */,
 			);
 			name = "NewHomeViewController-iPad.xib";
 			sourceTree = "<group>";
@@ -5481,7 +5482,7 @@
 		533C658915ABB9A2003EAF29 /* QuickAlbumsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C658815ABB9A2003EAF29 /* en */,
+				AE21F8E72171DE85002C4A68 /* Base */,
 			);
 			name = QuickAlbumsViewController.xib;
 			sourceTree = "<group>";
@@ -5489,7 +5490,7 @@
 		533C659015ABB9A9003EAF29 /* HomeAlbumViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C658F15ABB9A9003EAF29 /* en */,
+				AE21F8E82171DE85002C4A68 /* Base */,
 			);
 			name = HomeAlbumViewController.xib;
 			sourceTree = "<group>";
@@ -5497,7 +5498,7 @@
 		533C659715ABB9AD003EAF29 /* SearchSongsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C659615ABB9AD003EAF29 /* en */,
+				AE21F8E92171DE85002C4A68 /* Base */,
 			);
 			name = SearchSongsViewController.xib;
 			sourceTree = "<group>";
@@ -5505,7 +5506,7 @@
 		533C659E15ABB9B0003EAF29 /* ShuffleFolderPickerViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C659D15ABB9B0003EAF29 /* en */,
+				AE21F8EA2171DE85002C4A68 /* Base */,
 			);
 			name = ShuffleFolderPickerViewController.xib;
 			sourceTree = "<group>";
@@ -5513,7 +5514,7 @@
 		533C65A515ABB9B3003EAF29 /* SearchAllViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65A415ABB9B3003EAF29 /* en */,
+				AE21F8EB2171DE85002C4A68 /* Base */,
 			);
 			name = SearchAllViewController.xib;
 			sourceTree = "<group>";
@@ -5521,7 +5522,7 @@
 		533C65AC15ABB9BD003EAF29 /* IntroViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65AB15ABB9BD003EAF29 /* en */,
+				AE21F8E42171DE84002C4A68 /* Base */,
 			);
 			name = IntroViewController.xib;
 			sourceTree = "<group>";
@@ -5529,7 +5530,7 @@
 		533C65B315ABB9C6003EAF29 /* ServerListViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65B215ABB9C6003EAF29 /* en */,
+				AE21F8DF2171DE84002C4A68 /* Base */,
 			);
 			name = ServerListViewController.xib;
 			sourceTree = "<group>";
@@ -5537,7 +5538,7 @@
 		533C65BA15ABB9C9003EAF29 /* ServerTypeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65B915ABB9C9003EAF29 /* en */,
+				AE21F8E02171DE84002C4A68 /* Base */,
 			);
 			name = ServerTypeViewController.xib;
 			sourceTree = "<group>";
@@ -5545,7 +5546,7 @@
 		533C65C115ABB9CC003EAF29 /* SubsonicServerEditViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65C015ABB9CC003EAF29 /* en */,
+				AE21F8E12171DE84002C4A68 /* Base */,
 			);
 			name = SubsonicServerEditViewController.xib;
 			sourceTree = "<group>";
@@ -5553,7 +5554,7 @@
 		533C65C815ABB9D0003EAF29 /* UbuntuServerEditViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65C715ABB9D0003EAF29 /* en */,
+				AE21F8E22171DE84002C4A68 /* Base */,
 			);
 			name = UbuntuServerEditViewController.xib;
 			sourceTree = "<group>";
@@ -5561,7 +5562,7 @@
 		533C65CD15ABB9D3003EAF29 /* PMSServerEditViewControllerViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65CC15ABB9D3003EAF29 /* en */,
+				AE21F8E32171DE84002C4A68 /* Base */,
 			);
 			name = PMSServerEditViewControllerViewController.xib;
 			sourceTree = "<group>";
@@ -5569,7 +5570,7 @@
 		533C65D415ABB9D6003EAF29 /* SettingsTabViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65D315ABB9D6003EAF29 /* en */,
+				AE21F8DE2171DE84002C4A68 /* Base */,
 			);
 			name = SettingsTabViewController.xib;
 			sourceTree = "<group>";
@@ -5577,7 +5578,7 @@
 		533C65DB15ABB9F0003EAF29 /* DebugViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65DA15ABB9F0003EAF29 /* en */,
+				AE21F8DC2171DE84002C4A68 /* Base */,
 			);
 			name = DebugViewController.xib;
 			sourceTree = "<group>";
@@ -5585,7 +5586,7 @@
 		533C65E215ABB9F5003EAF29 /* EqualizerViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65E115ABB9F5003EAF29 /* en */,
+				AE21F8DD2171DE84002C4A68 /* Base */,
 			);
 			name = EqualizerViewController.xib;
 			sourceTree = "<group>";
@@ -5593,7 +5594,7 @@
 		533C65E915ABBA09003EAF29 /* AlbumViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				533C65E815ABBA09003EAF29 /* en */,
+				AE21F8EC2171DE85002C4A68 /* Base */,
 			);
 			name = AlbumViewController.xib;
 			sourceTree = "<group>";
@@ -5608,6 +5609,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = 8J8N2GU37S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/HockeySDK",
@@ -5634,8 +5636,8 @@
 					"-lz",
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinx2.isub;
-				PRODUCT_NAME = iSub;
+				PRODUCT_BUNDLE_IDENTIFIER = org.gbre.isub;
+				PRODUCT_NAME = GBSub;
 			};
 			name = Debug;
 		};
@@ -5646,6 +5648,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = 8J8N2GU37S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/HockeySDK",
@@ -5670,8 +5673,8 @@
 					"-lz",
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinx2.isub;
-				PRODUCT_NAME = iSub;
+				PRODUCT_BUNDLE_IDENTIFIER = org.gbre.isub;
+				PRODUCT_NAME = GBSub;
 			};
 			name = Release;
 		};
@@ -5681,12 +5684,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -5743,6 +5754,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = 8J8N2GU37S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/HockeySDK",
@@ -5769,8 +5781,8 @@
 					"-lz",
 				);
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinx2.isub;
-				PRODUCT_NAME = iSub;
+				PRODUCT_BUNDLE_IDENTIFIER = org.gbre.isub;
+				PRODUCT_NAME = GBSub;
 			};
 			name = AdHoc;
 		};
@@ -5904,12 +5916,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -5965,12 +5985,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

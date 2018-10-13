@@ -115,6 +115,22 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 			DDLogVerbose(@"[UAApplication] UIEventSubtypeRemoteControlPreviousTrack, calling prevSong");
 			[musicS prevSong];
 			break;
+        case UIEventSubtypeRemoteControlBeginSeekingBackward:
+            DDLogVerbose(@"[UAApplication] UIEventSubtypeRemoteControlBeginSeekingBackward, calling TBD");
+//            [musicS prevSong];
+            break;
+        case UIEventSubtypeRemoteControlEndSeekingBackward:
+            DDLogVerbose(@"[UAApplication] UIEventSubtypeRemoteControlEndSeekingBackward, calling TBD");
+//            [musicS prevSong];
+            break;
+        case UIEventSubtypeRemoteControlBeginSeekingForward:
+            DDLogVerbose(@"[UAApplication] UIEventSubtypeRemoteControlBeginSeekingForward, calling TBD");
+//            [musicS prevSong];
+            break;
+        case UIEventSubtypeRemoteControlEndSeekingForward:
+            DDLogVerbose(@"[UAApplication] UIEventSubtypeRemoteControlEndSeekingForward, calling TBD");
+//            [musicS prevSong];
+            break;
 		default:
 			return;
 	}	

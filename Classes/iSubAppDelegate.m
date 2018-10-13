@@ -1285,28 +1285,28 @@ LOG_LEVEL_ISUB_DEFAULT
 {
     if (!self.moviePlayer)
     {
-        self.moviePlayer = [[MPMoviePlayerController alloc] init];
+        self.moviePlayer = [MPMusicPlayerController alloc];
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayerExitedFullscreen:) name:MPMoviePlayerDidExitFullscreenNotification object:self.moviePlayer];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayBackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:self.moviePlayer];
         
-        self.moviePlayer.controlStyle = MPMovieControlStyleDefault;
-        self.moviePlayer.shouldAutoplay = YES;
-        self.moviePlayer.movieSourceType = MPMovieSourceTypeStreaming;
-        self.moviePlayer.allowsAirPlay = YES;
+//        self.moviePlayer.controlStyle = MPMovieControlStyleDefault;
+//        self.moviePlayer.shouldAutoplay = YES;
+//        self.moviePlayer.movieSourceType = MPMovieSourceTypeStreaming;
+//        self.moviePlayer.allowsAirPlay = YES;
         
         if (IS_IPAD())
         {
-            [appDelegateS.ipadRootViewController.menuViewController.playerHolder addSubview:self.moviePlayer.view];
-            self.moviePlayer.view.frame = self.moviePlayer.view.superview.bounds;
+//            [appDelegateS.ipadRootViewController.menuViewController.playerHolder addSubview:self.moviePlayer.view];
+//            self.moviePlayer.view.frame = self.moviePlayer.view.superview.bounds;
         }
         else
         {
-            [appDelegateS.mainTabBarController.view addSubview:self.moviePlayer.view];
-            self.moviePlayer.view.frame = CGRectZero;
+//            [appDelegateS.mainTabBarController.view addSubview:self.moviePlayer.view];
+//            self.moviePlayer.view.frame = CGRectZero;
         }
         
-        [self.moviePlayer setFullscreen:YES animated:YES];
+//        [self.moviePlayer setFullscreen:YES animated:YES];
     }
 }
 
@@ -1319,7 +1319,7 @@ LOG_LEVEL_ISUB_DEFAULT
         
         // Dispose of any existing movie player
         [self.moviePlayer stop];
-        [self.moviePlayer.view removeFromSuperview];
+//        [self.moviePlayer.view removeFromSuperview];
         self.moviePlayer = nil;
     }
 }
@@ -1371,8 +1371,8 @@ LOG_LEVEL_ISUB_DEFAULT
     [self createMoviePlayer];
     
     [self.moviePlayer stop]; // Doing this to prevent potential crash
-    self.moviePlayer.contentURL = [NSURL URLWithString:urlString];
-    //[moviePlayer prepareToPlay];
+//    self.moviePlayer.contentURL = [NSURL URLWithString:urlString];
+    [self.moviePlayer prepareToPlay];
     [self.moviePlayer play];
 }
 

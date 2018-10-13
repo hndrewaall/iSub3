@@ -9,6 +9,7 @@
 #ifndef iSub_iSubAppDelegate_h
 #define iSub_iSubAppDelegate_h
 
+#import <MediaPlayer/MediaPlayer.h>
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
 
@@ -65,7 +66,7 @@
 
 @property (strong) NSURL *referringAppUrl;
 
-@property (strong) MPMoviePlayerController *moviePlayer;
+@property (strong) MPMusicPlayerController *moviePlayer;
 
 - (void)backToReferringApp;
 
